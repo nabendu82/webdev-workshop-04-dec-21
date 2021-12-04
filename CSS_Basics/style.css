@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+body{
+    background-color: #ECEBC9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(207, 21, 55);
+}
+
+h3{
+    background-color: aquamarine;
+    color: darkblue;
+    padding: 1%;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    word-spacing: 0.8em;
+}
+
+.container{
+    background-color: rgb(242, 226, 245);
+    padding: 2%;
+}
+
+p{
+    color: hsl(235, 89%, 40%);
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+#second-p{
+    color: hsl(138, 88%, 16%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#box-model{
+    background-color:lightblue;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin: 20px; */
+    margin: 20px 10px;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    margin: 0.2em 0;
+    padding: 0 15px;
+    border: none;
+    line-height: 34px;
+    border-radius: 0.2em;
+    color: black;
+    background-color: lightblue;
+}
+
+.button:hover{
+    background-color: rgb(207, 21, 55);
+    color: white;
+    cursor: pointer;
+}
